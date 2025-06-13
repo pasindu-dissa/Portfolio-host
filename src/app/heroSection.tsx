@@ -73,7 +73,7 @@ const HeroSection: React.FC = () => {
                        tracking-tight bg-gradient-to-b from-white to-neutral-600 inline-block text-transparent bg-clip-text"
           >
             <span className=" mobile:max-mobileLg:text-[60px] mobile:text-[40px] tab:text-[50px] laptop:text-[70px]">
-              I'm
+              I&apos;m
             </span>
             <span className=" mobile:max-mobileLg:text-[70px] mobile:text-[50px] tab:text-[60px] laptop:text-[80px]">
               {' '}

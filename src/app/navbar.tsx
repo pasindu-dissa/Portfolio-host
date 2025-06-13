@@ -3,8 +3,6 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image'; // We'll use this for the avatar
-import { BsMoonStarsFill } from 'react-icons/bs';
 import { MdLightMode } from "react-icons/md";
 import {
   HiMenu,
@@ -61,7 +59,7 @@ const Navbar: React.FC = () => {
             href="#connect"
             className="border-2 p-1 cursor-pointer transition-all duration-200 ease-in-out hover:bg-white hover:border-white hover:text-black"
           >
-            let's connect
+            let&apos;s connect
           </Link>
         </div>
 

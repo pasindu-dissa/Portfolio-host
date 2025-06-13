@@ -1,9 +1,7 @@
 import Image from "next/image";
-import styles from "./page.module.css";
 import { FaLinkedinIn, FaGithub, FaFacebook } from "react-icons/fa6";
 import CircularProgressBar from "./skills"; // Import the Skills component
 import Collapse from "./collapse"; // Import the Collapse component
-import ScrollToTop from "./scroll"; // Import the Scroll Btn component
 import Projects from "./projects"; // Import the projects component
 import Navbar from "./navbar"; // Import the navbar component
 import HeroSection from "./heroSection"; // Import the hero component
@@ -174,7 +172,7 @@ export default function Home() {
             <div className="sm:w-80">
               <Collapse title="My Journey">
                 <p>
-                  I'm a passionate developer with a love for crafting digital
+                  I&apos;m a passionate developer with a love for crafting digital
                   experiences. From tinkering with code in my teens to building
                   scalable web apps, my journey has been fueled by curiosity and
                   creativity.
@@ -318,10 +316,10 @@ export default function Home() {
                      shadow-2xl text-left"> {/* Removed items-center, added text-left, and responsive max-w */}
 
           <p className="font-dm_sans text-3xl font-semibold text-white max-w-lg">
-            Whether it's a project, collaboration, or just a chat about design
+            Whether it&apos;s a project, collaboration, or just a chat about design
             and tech -
           </p>
-          <p className=" text-xl text-white/70">I'm just a message away</p>
+          <p className=" text-xl text-white/70">I&apos;m just a message away</p>
 
           {/* Social Links and Let's Talk button on one line */}
           <div className="flex flex-col sm:flex-row items-center justify-between w-full gap-4 sm:gap-0"> {/* Added w-full and responsive flex */}
@@ -347,7 +345,7 @@ export default function Home() {
                       transition-all duration-300 ease-in-out
                       hover:scale-105 hover:shadow-xl"
             >
-              Let's Talk
+              Let&apos;s Talk
             </a>
           </div>
 
