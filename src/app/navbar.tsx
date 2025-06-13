@@ -131,7 +131,7 @@ const Navbar: React.FC = () => {
             className="flex items-center gap-4 p-3 rounded-lg text-white/80 hover:bg-white/10 hover:text-white transition-all"
           >
             <HiOutlineLogout className="text-xl" />
-            <span className="text-lg">Let's Connect</span>
+            <p className="text-lg">Connect</p>
           </Link>
         </div>
       </div>
