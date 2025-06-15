@@ -325,10 +325,10 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row items-center justify-between w-full gap-4 sm:gap-0"> {/* Added w-full and responsive flex */}
             {/* Enhanced Social Icons */}
             <div className="flex gap-4 text-2xl">
-              <a href="#" aria-label="LinkedIn" className="p-3 rounded-full text-white/70 hover:text-white hover:bg-white/10 transition-all duration-300">
+              <a href="www.linkedin.com/in/pasindu-dissa" aria-label="LinkedIn" className="p-3 rounded-full text-white/70 hover:text-white hover:bg-white/10 transition-all duration-300">
                 <FaLinkedinIn />
               </a>
-              <a href="#" aria-label="GitHub" className="p-3 rounded-full text-white/70 hover:text-white hover:bg-white/10 transition-all duration-300">
+              <a href="https://github.com/pasindu-dissa" aria-label="GitHub" className="p-3 rounded-full text-white/70 hover:text-white hover:bg-white/10 transition-all duration-300">
                 <FaGithub />
               </a>
               <a href="#" aria-label="Facebook" className="p-3 rounded-full text-white/70 hover:text-white hover:bg-white/10 transition-all duration-300">
@@ -338,7 +338,7 @@ export default function Home() {
 
             {/* Updated CTA Button */}
             <a
-              href="#" // Replace with your contact link or mailto
+              href="mailto:pasindudissanayake035@gmail.com?subject=Let's%20Connect&body=Hi,%20I'd%20like%20to%20get%20in%20touch!" // Replace with your contact link or mailto
               className="inline-block px-8 py-3
                       font-semibold text-black bg-white rounded-full
                       shadow-lg
