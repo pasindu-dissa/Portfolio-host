@@ -93,19 +93,45 @@ const HeroSection: React.FC = () => {
             <b className=" font-extrabold">DESIGNER</b>
           </div>
           <div className=" flex text-3xl gap-4">
-            <FaLinkedinIn className=" cursor-pointer opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100" />
-            <FaGithub className=" cursor-pointer opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100" />
+            <a
+              href="https://www.linkedin.com/in/pasindu-dissa"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit my LinkedIn profile"
+            >
+              <FaLinkedinIn
+                className="cursor-pointer opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100"
+              />
+            </a>
+            <a
+              href="https://github.com/pasindu-dissa"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit my GitHub profile"
+            >
+              <FaGithub
+                className="cursor-pointer opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100"
+              />
+            </a>
             <FaFacebook className=" cursor-pointer opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100" />
           </div>
           <div>
-            <span
-              className=" font-poppins font-medium text-[19px] p-1 mobile:max-mobileLg:py-0.25 
-                         bg-white text-black border-2 border-white
-                         cursor-pointer transition delay-50 duration-200 ease-in-out
-                         hover:bg-black hover:text-white hover:border-2 hover:te"
-            >
-              my resume
-            </span>
+            <a
+               href="https://drive.google.com/file/d/15XrBrPuLWT8jIxbx0mAvcsvQwae4El0k/view?usp=sharing"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="View my resume"
+               download
+             >
+               <span
+                 className="font-poppins font-medium text-[19px] p-1 mobile:max-mobileLg:py-0.25 
+                            bg-white text-black border-2 border-white
+                            cursor-pointer transition delay-50 duration-200 ease-in-out
+                            hover:bg-black hover:text-white hover:border-2 hover:te"
+               >
+                 my resume
+               </span>
+             </a>
           </div>
         </div>
       </div>
