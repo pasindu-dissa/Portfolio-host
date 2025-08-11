@@ -75,7 +75,7 @@ export default function Home() {
                 {
                   percentage: 75,
                   gradientColors: ["#FF6B6B", "#FFE66D"],
-                  customText: "T-Script",
+                  customText: "Flutter",
                 },
               ]}
               size={175}
@@ -89,28 +89,28 @@ export default function Home() {
             <div className="py-10 text-left flex flex-wrap gap-2">
               
               {/* Each span is now styled as a glassmorphism tag */}
-              <span className="px-4 py-2 text-gray-300 bg-white/5 border border-white/10 rounded-sm hover:bg-white/20 hover:text-white transition-colors duration-300 cursor-default">
+              <span className="px-4 py-2 text-gray-300 bg-white/5 border border-white/10 hover:bg-white/20 hover:text-white transition-colors duration-300 cursor-default">
                 Python
               </span>
-              <span className="px-4 py-2 text-gray-300 bg-white/5 border border-white/10 rounded-sm hover:bg-white/20 hover:text-white transition-colors duration-300 cursor-default">
+              <span className="px-4 py-2 text-gray-300 bg-white/5 border border-white/10 hover:bg-white/20 hover:text-white transition-colors duration-300 cursor-default">
                 C++
               </span>
-              <span className="px-4 py-2 text-gray-300 bg-white/5 border border-white/10 rounded-sm hover:bg-white/20 hover:text-white transition-colors duration-300 cursor-default">
+              <span className="px-4 py-2 text-gray-300 bg-white/5 border border-white/10 hover:bg-white/20 hover:text-white transition-colors duration-300 cursor-default">
                 C#
               </span>
-              <span className="px-4 py-2 text-gray-300 bg-white/5 border border-white/10 rounded-sm hover:bg-white/20 hover:text-white transition-colors duration-300 cursor-default">
+              <span className="px-4 py-2 text-gray-300 bg-white/5 border border-white/10 hover:bg-white/20 hover:text-white transition-colors duration-300 cursor-default">
                 Java
               </span>
-              <span className="px-4 py-2 text-gray-300 bg-white/5 border border-white/10 rounded-sm hover:bg-white/20 hover:text-white transition-colors duration-300 cursor-default">
+              <span className="px-4 py-2 text-gray-300 bg-white/5 border border-white/10 hover:bg-white/20 hover:text-white transition-colors duration-300 cursor-default">
                 MySQL
               </span>
-              <span className="px-4 py-2 text-gray-300 bg-white/5 border border-white/10 rounded-sm hover:bg-white/20 hover:text-white transition-colors duration-300 cursor-default">
+              <span className="px-4 py-2 text-gray-300 bg-white/5 border border-white/10 hover:bg-white/20 hover:text-white transition-colors duration-300 cursor-default">
                 mongoDB
               </span>
-              <span className="px-4 py-2 text-gray-300 bg-white/5 border border-white/10 rounded-sm hover:bg-white/20 hover:text-white transition-colors duration-300 cursor-default">
+              <span className="px-4 py-2 text-gray-300 bg-white/5 border border-white/10 hover:bg-white/20 hover:text-white transition-colors duration-300 cursor-default">
                 express.js
               </span>
-              <span className="px-4 py-2 text-gray-300 bg-white/5 border border-white/10 rounded-sm hover:bg-white/20 hover:text-white transition-colors duration-300 cursor-default">
+              <span className="px-4 py-2 text-gray-300 bg-white/5 border border-white/10 hover:bg-white/20 hover:text-white transition-colors duration-300 cursor-default">
                 Next.js
               </span>
 
@@ -346,11 +346,10 @@ export default function Home() {
             <a
               href="mailto:pasindudissanayake035@gmail.com?subject=Let's%20Connect&body=Hi,%20I'd%20like%20to%20get%20in%20touch!" // Replace with your contact link or mailto
               target="_blank"
-              className="inline-block px-8 py-3
-                      font-semibold text-black bg-white rounded-full
-                      shadow-lg
-                      transition-all duration-300 ease-in-out
-                      hover:scale-105 hover:shadow-xl"
+              className="inline-block px-8 py-3 rounded-full
+                      font-semibold bg-white text-black border-2 border-white
+                         cursor-pointer transition delay-50 duration-200 ease-in-out
+                         hover:bg-black/0 hover:text-white hover:border-2 hover:te"
             >
               Let&apos;s Talk
             </a>
