@@ -37,8 +37,8 @@ const Navbar: React.FC = () => {
     <nav className="font-poppins relative z-50">
       <div className="flex justify-between items-center min-[900px]:text-xl py-3">
         {/* Left Side: Name */}
-        <h1 className="cursor-pointer hover:underline hover:underline-offset-5 hover:decoration-2 hover">
-          <Link href="#about">Pasindu Dissanayake</Link>
+        <h1 className="relative inline-block cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:bg-white/70 after:w-0 after:transition-all after:duration-300 after:ease-in-out hover:after:w-full">
+          <a href="#about">Pasindu Dissanayake</a>
         </h1>
 
         {/* Desktop Menu (Visible > 700px) */}
@@ -57,7 +57,7 @@ const Navbar: React.FC = () => {
           <MdLightMode className="cursor-pointer text-3xl" />
           <Link
             href="mailto:pasindudissanayake035@gmail.com?subject=Let's%20Connect&body=Hi,%20I'd%20like%20to%20get%20in%20touch!"
-            className="border-2 p-1 cursor-pointer transition-all duration-200 ease-in-out hover:bg-white hover:border-white hover:text-black"
+            className="border-1 p-1 cursor-pointer transition-all duration-200 ease-in-out hover:bg-white hover:border-white hover:text-black"
           >
             let&apos;s connect
           </Link>
@@ -140,3 +140,4 @@ const Navbar: React.FC = () => {
 };
 
 export default Navbar;
+
