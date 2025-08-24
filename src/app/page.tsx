@@ -304,7 +304,7 @@ export default function Home() {
         {/* Background Image with Border Radius */}
         <div
           className="absolute inset-0 bg-cover bg-center rounded-4xl" /* Added rounded-lg */
-          style={{ backgroundImage: 'url(/images/aurora.jpeg)' }}
+          style={{ backgroundImage: 'url(/images/glassflow.jpeg)' }}
         >
           {/* ... overlay ... */}
         </div>
