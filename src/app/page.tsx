@@ -1,5 +1,22 @@
 import Image from "next/image";
-import { FaLinkedinIn, FaGithub, FaFacebook } from "react-icons/fa6";
+import {
+  FaLinkedinIn,
+  FaGithub,
+  FaFacebook,
+  FaPython,
+  FaJava,
+  FaHtml5,
+  FaDartLang,
+  FaJs,
+} from "react-icons/fa6";
+import {
+  SiCss3,
+  SiExpress,
+  SiMongodb,
+  SiMysql,
+  SiNextdotjs,
+  SiTailwindcss,
+} from "react-icons/si";
 import CircularProgressBar from "./skills"; // Import the Skills component
 import Collapse from "./collapse"; // Import the Collapse component
 import Projects from "./projects"; // Import the projects component
@@ -26,8 +43,8 @@ export default function Home() {
       </section>
 
       {/* SKILLS-SECTION */}
-      <section 
-        id="skills" 
+      <section
+        id="skills"
         className="relative font-poppins text-left pt-30 mobile:max-mobileLg:pt-20 mobile:max-mobileLg:px-5"
       >
         {/* Content Column (takes up 3/5 of the width on large screens) */}
@@ -37,10 +54,10 @@ export default function Home() {
             <div className="flex-grow h-px block w-20 bg-gradient-to-r from-purple-500 to-pink-500 rounded"></div>
           </div>
           <p className="font-normal opacity-75 py-10">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-            voluptatibus quibusdam laborum nesciunt asperiores, ipsam, ex at
-            ratione nemo magnam nulla consequatur quas quidem! Modi laudantium
-            dolores veritatis cumque esse!
+            A showcase of my technical expertise, featuring proficiency in
+            modern web and mobile development technologies, including
+            frameworks, languages, and databases, honed through hands-on
+            projects and continuous learning.
           </p>
 
           {/* CIRCULAR-PROGRESS-BARS */}
@@ -86,34 +103,19 @@ export default function Home() {
           {/* MORE-SKILLS-BOXES */}
           <div className="flex justify-between">
             {/* We removed opacity-65 from the parent div to control it on the spans */}
-            <div className="py-10 text-left flex flex-wrap gap-2">
-              
+            <div className="py-10 text-left flex flex-wrap gap-8">
               {/* Each span is now styled as a glassmorphism tag */}
-              <span className="px-4 py-2 text-gray-300 bg-white/5 border border-white/10 hover:bg-white/20 hover:text-white transition-colors duration-300 cursor-default">
-                Python
-              </span>
-              <span className="px-4 py-2 text-gray-300 bg-white/5 border border-white/10 hover:bg-white/20 hover:text-white transition-colors duration-300 cursor-default">
-                C++
-              </span>
-              <span className="px-4 py-2 text-gray-300 bg-white/5 border border-white/10 hover:bg-white/20 hover:text-white transition-colors duration-300 cursor-default">
-                C#
-              </span>
-              <span className="px-4 py-2 text-gray-300 bg-white/5 border border-white/10 hover:bg-white/20 hover:text-white transition-colors duration-300 cursor-default">
-                Java
-              </span>
-              <span className="px-4 py-2 text-gray-300 bg-white/5 border border-white/10 hover:bg-white/20 hover:text-white transition-colors duration-300 cursor-default">
-                MySQL
-              </span>
-              <span className="px-4 py-2 text-gray-300 bg-white/5 border border-white/10 hover:bg-white/20 hover:text-white transition-colors duration-300 cursor-default">
-                mongoDB
-              </span>
-              <span className="px-4 py-2 text-gray-300 bg-white/5 border border-white/10 hover:bg-white/20 hover:text-white transition-colors duration-300 cursor-default">
-                express.js
-              </span>
-              <span className="px-4 py-2 text-gray-300 bg-white/5 border border-white/10 hover:bg-white/20 hover:text-white transition-colors duration-300 cursor-default">
-                Next.js
-              </span>
-
+              <FaPython className=" text-6xl opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100 border border-white/50 rounded-2xl backdrop-blur-sm p-2" />
+              <FaJava className=" text-6xl opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100 border border-white/50 rounded-2xl backdrop-blur-sm p-2" />
+              <FaJs className=" text-6xl opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100 border border-white/50 rounded-2xl backdrop-blur-sm p-2" />
+              <SiMysql className=" text-6xl opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100 border border-white/50 rounded-2xl backdrop-blur-sm p-2" />
+              <SiMongodb className=" text-6xl opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100 border border-white/50 rounded-2xl backdrop-blur-sm p-2" />
+              <SiExpress className=" text-6xl opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100 border border-white/50 rounded-2xl backdrop-blur-sm p-2" />
+              <SiNextdotjs className=" text-6xl opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100 border border-white/50 rounded-2xl backdrop-blur-sm p-2" />
+              <FaHtml5 className=" text-6xl opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100 border border-white/50 rounded-2xl backdrop-blur-sm p-2" />
+              <SiCss3 className=" text-6xl opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100 border border-white/50 rounded-2xl backdrop-blur-sm p-2" />
+              <SiTailwindcss className=" text-6xl opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100 border border-white/50 rounded-2xl backdrop-blur-sm p-2" />
+              <FaDartLang className=" text-6xl opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100 border border-white/50 rounded-2xl backdrop-blur-sm p-2" />
             </div>
           </div>
         </div>
