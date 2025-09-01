@@ -22,6 +22,8 @@ import Collapse from "./collapse"; // Import the Collapse component
 import Projects from "./projects"; // Import the projects component
 import Navbar from "./navbar"; // Import the navbar component
 import HeroSection from "./heroSection"; // Import the hero component
+//import { GlowingEffectDemo } from "./aboutMe"; // Import the GlowingEffectDemo component
+import { GlowingEffectDemoSecond } from "./aboutMe"; // Import the GlowingEffectDemo component
 
 export default function Home() {
   return (
@@ -103,19 +105,19 @@ export default function Home() {
           {/* MORE-SKILLS-BOXES */}
           <div className="flex justify-between">
             {/* We removed opacity-65 from the parent div to control it on the spans */}
-            <div className="py-10 text-left flex flex-wrap gap-8">
+            <div className="py-10 text-left flex flex-wrap gap-4">
               {/* Each span is now styled as a glassmorphism tag */}
-              <FaPython className=" text-6xl opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100 border border-white/50 rounded-2xl backdrop-blur-sm p-2" />
-              <FaJava className=" text-6xl opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100 border border-white/50 rounded-2xl backdrop-blur-sm p-2" />
-              <FaJs className=" text-6xl opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100 border border-white/50 rounded-2xl backdrop-blur-sm p-2" />
-              <SiMysql className=" text-6xl opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100 border border-white/50 rounded-2xl backdrop-blur-sm p-2" />
-              <SiMongodb className=" text-6xl opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100 border border-white/50 rounded-2xl backdrop-blur-sm p-2" />
-              <SiExpress className=" text-6xl opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100 border border-white/50 rounded-2xl backdrop-blur-sm p-2" />
-              <SiNextdotjs className=" text-6xl opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100 border border-white/50 rounded-2xl backdrop-blur-sm p-2" />
-              <FaHtml5 className=" text-6xl opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100 border border-white/50 rounded-2xl backdrop-blur-sm p-2" />
-              <SiCss3 className=" text-6xl opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100 border border-white/50 rounded-2xl backdrop-blur-sm p-2" />
-              <SiTailwindcss className=" text-6xl opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100 border border-white/50 rounded-2xl backdrop-blur-sm p-2" />
-              <FaDartLang className=" text-6xl opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100 border border-white/50 rounded-2xl backdrop-blur-sm p-2" />
+              <FaPython className=" text-5xl opacity-35 transition delay-50 duration-200 ease-in-out hover:opacity-100 border border-white/50 rounded-lg backdrop-blur-sm p-1.5" />
+              <FaJava className=" text-5xl opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100 border border-white/50 rounded-lg backdrop-blur-sm p-1.5" />
+              <FaJs className=" text-5xl opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100 border border-white/50 rounded-lg backdrop-blur-sm p-1.5" />
+              <SiMysql className=" text-5xl opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100 border border-white/50 rounded-lg backdrop-blur-sm p-1.5" />
+              <SiMongodb className=" text-5xl opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100 border border-white/50 rounded-lg backdrop-blur-sm p-1.5" />
+              <SiExpress className=" text-5xl opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100 border border-white/50 rounded-lg backdrop-blur-sm p-1.5" />
+              <SiNextdotjs className=" text-5xl opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100 border border-white/50 rounded-lg backdrop-blur-sm p-1.5" />
+              <FaHtml5 className=" text-5xl opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100 border border-white/50 rounded-lg backdrop-blur-sm p-1.5" />
+              <SiCss3 className=" text-5xl opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100 border border-white/50 rounded-lg backdrop-blur-sm p-1.5" />
+              <SiTailwindcss className=" text-5xl opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100 border border-white/50 rounded-lg backdrop-blur-sm p-1.5" />
+              <FaDartLang className=" text-5xl opacity-50 transition delay-50 duration-200 ease-in-out hover:opacity-100 border border-white/50 rounded-lg backdrop-blur-sm p-1.5" />
             </div>
           </div>
         </div>
@@ -165,12 +167,12 @@ export default function Home() {
       <section id="about" className=" flex font-poppins text-left pt-30 mobile:max-mobileLg:px-5">
         <div className="w-full">
           {/* Topic */}
-          <div className="flex items-center gap-4 min-[900px]:w-3/5">
+          <div className="flex items-center gap-4 min-[900px]:w-3/5 pb-15">
             <h1 className="text-4xl font-bold whitespace-nowrap">about</h1>
             <div className="flex-grow h-px block w-20 bg-gradient-to-r from-purple-500 to-pink-500 rounded"></div>
           </div>
           {/* Components */}
-          <div className="flex flex-row gap-4 flex-wrap justify-center pt-10">
+          {/* <div className="flex flex-row gap-4 flex-wrap justify-center pt-10">
             <div className="sm:w-80">
               <Collapse title="My Journey">
                 <p>
@@ -204,7 +206,8 @@ export default function Home() {
                 </ul>
               </Collapse>
             </div>
-          </div>
+          </div> */}
+          <GlowingEffectDemoSecond />
         </div>
       </section>
 
