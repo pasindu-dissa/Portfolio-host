@@ -54,9 +54,8 @@ const Navbar: React.FC = () => {
         </ul>
 
         <div className="hidden min-[701px]:flex items-center gap-6">
-          <MdLightMode className="cursor-pointer text-3xl" />
           <Link
-            href="mailto:pasindudissanayake035@gmail.com?subject=Let's%20Connect&body=Hi,%20I'd%20like%20to%20get%20in%20touch!"
+            href="#connect"
             className="border-1 p-1 cursor-pointer transition-all duration-200 ease-in-out hover:bg-white hover:border-white hover:text-black"
           >
             let&apos;s connect
@@ -126,7 +125,7 @@ const Navbar: React.FC = () => {
         {/* Footer Link */}
         <div className="mt-auto">
           <Link
-            href="mailto:pasindudissanayake035@gmail.com?subject=Let's%20Connect&body=Hi,%20I'd%20like%20to%20get%20in%20touch!"
+            href="#connect"
             onClick={closeMenu}
             className="flex items-center gap-4 p-3 rounded-lg text-white/80 hover:bg-white/10 hover:text-white transition-all"
           >
@@ -140,4 +139,3 @@ const Navbar: React.FC = () => {
 };
 
 export default Navbar;
-
