@@ -1,6 +1,6 @@
 "use client";
 
-import { Baby, Binoculars, Box, Code2, Goal, Lock, MapPin, Search, Settings, Sparkles, Target } from "lucide-react";
+import { Baby, Binoculars, MapPin, Target } from "lucide-react";
 import { GlowingEffect } from "@/components/ui/glowingEffect";
 
 export function GlowingEffectDemoSecond() {
