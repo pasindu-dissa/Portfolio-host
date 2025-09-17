@@ -74,7 +74,7 @@ const HeroSection: React.FC = () => {
         {/* BACKDROP */}
         <div
           style={{ opacity }}
-          className="absolute top-0 right-0 w-full h-full mobile:max-mobileLg:backdrop-brightness-50 mobile:max-mobileLg:z-2"
+          className="absolute top-0 right-0 w-full h-[150%] mobile:max-mobileLg:backdrop-brightness-50 mobile:max-mobileLg:z-2"
         ></div>
 
         {/* ABOUT-ME */}
