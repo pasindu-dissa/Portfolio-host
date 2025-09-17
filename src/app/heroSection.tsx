@@ -160,8 +160,8 @@ const HeroSection: React.FC = () => {
           </div>
           <div>
             <a
-              href="/path/to/your/resume.pdf"
-              download="Pasindu-Resume.pdf"
+              href="https://drive.google.com/file/d/1G63BTUxogdorOJoHd0H5ihXplJy0H7OL/view?usp=sharing"
+              target="_blank"
               aria-label="Download Pasindu's resume"
               className="font-poppins font-medium text-[19px] p-1 mobile:max-mobileLg:py-0.25 
                          bg-white text-black border-2 border-white
@@ -178,3 +178,4 @@ const HeroSection: React.FC = () => {
 };
 
 export default HeroSection;
+
