@@ -108,20 +108,18 @@ const HeroSection: React.FC = () => {
             <br />
             <TypeAnimation
               sequence={[
-                "FULL-STACK ",
-                1500,
-                "FRONT-END ",
-                1500,
-                "MOBILE ",
-                1500,
-                "WEB ",
-                1500,
+                "FULL-STACK",
+                2000,
+                "MOBILE",
+                2000,
+                "WEB",
+                2000,
               ]}
               wrapper="span"
               speed={30}
               repeat={Infinity}
               cursor={true}
-              className=" text-white mobile:max-mobileLg:text-[60px] mobile:text-[42px] tab:text-[52px] laptop:text-[62px]"
+              className=" text-neutral-300 mobile:max-mobileLg:text-[60px] mobile:text-[42px] tab:text-[52px] laptop:text-[62px]"
               style={{ caretColor: "#8B5CF6" }}
             />
             <br className="min-[640px]:hidden" />
@@ -162,8 +160,7 @@ const HeroSection: React.FC = () => {
           </div>
           <div>
             <a
-              href="https://drive.google.com/file/d/1G63BTUxogdorOJoHd0H5ihXplJy0H7OL/view?usp=sharing"
-              target="_blank"
+              href="/path/to/your/resume.pdf"
               download="Pasindu-Resume.pdf"
               aria-label="Download Pasindu's resume"
               className="font-poppins font-medium text-[19px] p-1 mobile:max-mobileLg:py-0.25 
@@ -181,5 +178,3 @@ const HeroSection: React.FC = () => {
 };
 
 export default HeroSection;
-
-
