@@ -20,10 +20,10 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io"; // Arrow ico
 // --- Data for the slides ---
 const projectsData = [
   {
-    title: "Analytics Dashboard",
+    title: "CourtConnect",
     description:
-      "A responsive analytics dashboard built with React, Tailwind CSS, and Chart.js for data visualization.",
-    image: "/images/chart.png", // Path from the `public` directory
+      "Comprehensive mobile application for seamless sports court reservations and community engagement.",
+    image: "/images/courtconnect.png", // Path from the `public` directory
     liveLink: "#",
     githubLink: "#",
   },
@@ -44,18 +44,18 @@ const projectsData = [
     githubLink: "#",
   },
   {
-    title: "Mobile App Redesign",
+    title: "Threads App Clone",
     description:
-      "UI/UX redesign of a popular mobile application focusing on user-friendliness and modern aesthetics.",
+      "Redesigned and developed a fully functional clone of the social media app Threads.",
     image: "/images/chart.png", // Path from the `public` directory
     liveLink: "#",
     githubLink: "#",
   },
   {
-    title: "Task Management System",
+    title: "Life on Land Website",
     description:
-      "A robust task management system with real-time updates and collaborative features using WebSockets.",
-    image: "/images/chart.png", // Path from the `public` directory
+      "Web application designed to encourage people to volunteer and support the UN's Sustainable Development Goal 15",
+    image: "/images/Life on land front.jpeg", // Path from the `public` directory
     liveLink: "#",
     githubLink: "#",
   },
